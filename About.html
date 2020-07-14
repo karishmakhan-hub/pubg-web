@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   	 <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   </head>
+   <body >
+   	 <div style="background-color: #ffe6e6";>
+   	<div  align="center">
+    <h1 class="sofiatextfont text-DARK" >ABOUT US...!!!!!!</h1>
+</div>
+<!-- <span> #ffcccc6</span> -->
+<!--  <td align="center" width="20%">
+                   <form action="clan.html">  
+               <input type="image" src="images/t2.png" class="clan-detail-btn rounded-circle">            
+                  </form>
+               </td> -->
+ 
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn mx-auto d-block rounded-circle">click</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="clan.html">CLAN</a>
+    <a href="weapons.html">WEAPON</a>
+    <a href="gamefriend.html">GAME FRIEND</a>
+  </div>
+</div>
+</div>
+   </body>
+   <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+   </html>

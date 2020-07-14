@@ -1,5 +1,211 @@
+.img-div {
+	padding-top: 1%
+}
 
-.clanImgDetail{
+.carousel-inner img {
+	width: 100%;
+	height: 50%;
+}
+
+.slider-container {
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 1%;
+	padding-bottom:0;
+}
+
+.row {
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.sofiatextfont {
+	font-family: "Sofia";
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+.sofiatextfont {
+	//padding-left: 10%;
+}
+
+.pubglogo {
+	height: 6%;
+	width: 6%;
+}
+
+.homelogo {
+	height: 15%;
+	width: 15%;
+}
+.homelogo2 {
+	height: 6%;
+	width: 6%;
+}
+
+
+
+.clanImgDetail {
+	height: 65%;
+	width: 35%;
+	/*border: 5px solid #555;*/
+}
+
+
+.memberNameStyle {
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+.clan-detail-btn-div{
+	padding-right: 20px; 
+}
+
+.img-div2 {
+	padding-bottom: 100px;
+	padding-top: 0px;
+	height: 50px;
+}
+  .header-div{border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+.clanImgDetail2 {
+	height: 100%;
+	width: 57%;
+}
+.sofiatextfont2 {
+	font-family: "Sofia";
+	font-size: 38px;
+	font-weight: bold;
+	color: black;
+}
+.clan-nick-tag {
+	/*padding-left: 8%;*/
+	font-weight: bold;
+	font-style: italic;
+	font-size: 22px;
+	color: black;
+	/*text-decoration: underline blue;*/
+}
+/*.blog-data {
+	font-size: 25px;
+}*/
+
+.clanlogodetails{
 	height: 10%;
-	width: 10%
+	width: 12%;
+}
+
+.clan-nick-name{
+	font-family: "Sofia";
+	font-size: 38px;
+	font-weight: bold;
+	color: black;
+}
+
+.clan-nick-desc{
+	font-family: "Georgia";
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+}
+
+/*style="font: italic bold 18px/20px Georgia, serif"*/
+
+.clan-nick-tag-name{
+	font-weight: bold;
+	font-family: "Sofia";
+	font-style: italic;
+	font-size: 22px;
+	color: black;
+}
+
+.clan-detail-hr{
+	height: 2px;
+	border-width:10px;
+	color:black;
+}
+.clan-detail-btn{ 
+	width: 70px;
+	height: 60px;	
+	margin: 80px; 
+}
+.clan-table{
+	
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.verticalName{
+	writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "Sofia";
+  font-weight: bold;
+  color:black;
+
+}
+.sliderSize{
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom:0;
+}
+.dropDownBtnSize{
+	padding-right:20%;
+	padding-left: 20%;
+	padding-top: 1%;
+	padding-bottom:0%;
+}
+.headingHeader{
+	 position: sticky;
+  top: 0;
+}
+
+.contentDiv{
+background-color:#48C9B0
+}
+
+.header{
+	background-color:#48C9B0
 }
