@@ -468,3 +468,31 @@ style type="text/css">btn-primary
                      </div>
                   </div>
                </td>
+
+
+
+
+
+
+               #FOR BLINK
+               .blink_text {
+  animation: blinker 1s linear infinite;
+}
+
+.blink_img {
+  animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+@keyframes blin {
+  50% { opacity: 0; }
+}
+<body>
+<div class="wrapper">
+<h1>Blinking Text using css</h1>
+<span class="blink_text">This Will Blink</span><br/>
+<h1>Blinking Image using css</h1>
+<span class="blink_img"><img src="https://4.bp.blogspot.com/-ZGWK5z8Zcgk/WDfoy9px9OI/AAAAAAAAC5w/Ti8W_a8KPHE8GmE46Ge4vPwpBa1CtjMdwCLcB/s1600/image-fade-effect-using-css.jpg" style="width:200px;" /></span>
+</div>
+</body>

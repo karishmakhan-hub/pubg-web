@@ -13,7 +13,7 @@
 	padding-top: 1%;
 	padding-bottom:0;
 }
-
+ 
 .row {
 	padding-bottom: 1%;
 	padding-top: 1%;
@@ -56,6 +56,8 @@
 .memberNameStyle {
 	font-weight: bold;
 	font-style: italic;
+	color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px black;
 }
 
 
@@ -89,6 +91,9 @@
 	font-style: italic;
 	font-size: 22px;
 	color: black;
+	/*text-shadow: 2px 2px 8px #e6ffff;*/
+	/*color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px skyblue;*/
 	/*text-decoration: underline blue;*/
 }
 /*.blog-data {
@@ -105,6 +110,8 @@
 	font-size: 38px;
 	font-weight: bold;
 	color: black;
+	color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px black;
 }
 
 .clan-nick-desc{
@@ -121,8 +128,10 @@
 	font-weight: bold;
 	font-family: "Sofia";
 	font-style: italic;
-	font-size: 22px;
+	font-size: 32px;
 	color: black;
+	color: black;
+  /*text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px black;*/
 }
 
 .clan-detail-hr{
@@ -182,7 +191,9 @@
   text-orientation: upright;
   font-family: "Sofia";
   font-weight: bold;
-  color:black;
+ /* color:black;*/
+ color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px black;
 
 }
 .sliderSize{
@@ -197,15 +208,29 @@
 	padding-top: 1%;
 	padding-bottom:0%;
 }
-.headingHeader{
-	 position: sticky;
-  top: 0;
+.gameFrndName{
+	color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px black;
+  font-family: "Sofia";
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 0;
+
+}
+.clan-heading{
+	font-family: "Sofia";
+	font-size: 38px;
+	font-weight: bold;
+	color: red;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
 }
 
-.contentDiv{
-background-color:#48C9B0
+.blinkText{
+	animation: blinker 1s linear infinite;
 }
-
-.header{
-	background-color:#48C9B0
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+@keyframes blin {
+  50% { opacity: 0; }
 }
